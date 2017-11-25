@@ -30,16 +30,32 @@ body {
   background-color: #444;
   height: 2rem;
   width: 100%;
-  padding: 0.4rem;
+  padding: 0.4rem 0;
 }
 .link-mini {
   color: #eee;
   font-size: 1.1rem;
   float: right;
-  margin-right: 2rem;
+  margin-right: 4rem;
   text-decoration: none;
 }
 .image-section {
   width: 100%;
-  margin-top: 0;
+  margin: 0;
+}
+.main {
+  background-color: #36afe6;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.subtitle {
+  font-size: 1.3rem;
+  color: #eee;
+  display: inline;
+}
+.sub-span {
+  color: #eee;
+  font-size: 2rem;
+  line-height: 4rem;
 }
